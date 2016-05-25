@@ -14,6 +14,7 @@
 		FBB29AEE1C49568F00235832 /* Dropit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBB29AEC1C49568F00235832 /* Dropit.xcdatamodeld */; };
 		FBB29AF01C49568F00235832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB29AEF1C49568F00235832 /* Assets.xcassets */; };
 		FBB29AF31C49568F00235832 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB29AF11C49568F00235832 /* LaunchScreen.storyboard */; };
+		FBB29AFC1C498D8D00235832 /* DropitBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB29AFB1C498D8D00235832 /* DropitBehavior.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		FBB29AEF1C49568F00235832 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBB29AF21C49568F00235832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBB29AF41C49568F00235832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBB29AFA1C498D8D00235832 /* DropitBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropitBehavior.h; sourceTree = "<group>"; };
+		FBB29AFB1C498D8D00235832 /* DropitBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropitBehavior.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 				FBB29AE61C49568F00235832 /* ViewController.h */,
 				FBB29AE71C49568F00235832 /* ViewController.m */,
 				FBB29AE91C49568F00235832 /* Main.storyboard */,
+				FBB29AFA1C498D8D00235832 /* DropitBehavior.h */,
+				FBB29AFB1C498D8D00235832 /* DropitBehavior.m */,
 				FBB29AEF1C49568F00235832 /* Assets.xcassets */,
 				FBB29AF11C49568F00235832 /* LaunchScreen.storyboard */,
 				FBB29AF41C49568F00235832 /* Info.plist */,
@@ -154,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBB29AE81C49568F00235832 /* ViewController.m in Sources */,
+				FBB29AFC1C498D8D00235832 /* DropitBehavior.m in Sources */,
 				FBB29AEE1C49568F00235832 /* Dropit.xcdatamodeld in Sources */,
 				FBB29AE51C49568F00235832 /* AppDelegate.m in Sources */,
 				FBB29AE21C49568F00235832 /* main.m in Sources */,
